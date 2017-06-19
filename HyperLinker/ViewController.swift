@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Link Hyper
+//  HyperLinker
 //
 //  Created by Joseph Di Pasquale on 2017-06-18.
 //  Copyright © 2017 SiteWiz. All rights reserved.

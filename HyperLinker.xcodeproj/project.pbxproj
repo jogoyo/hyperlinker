@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CB24D841EF77A6D0026CA67 /* Link Hyper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Link Hyper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB24D841EF77A6D0026CA67 /* HyperLinker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperLinker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB24D871EF77A6D0026CA67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB24D891EF77A6D0026CA67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CB24D8B1EF77A6D0026CA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		7CB24D7B1EF77A6D0026CA67 = {
 			isa = PBXGroup;
 			children = (
-				7CB24D861EF77A6D0026CA67 /* Link Hyper */,
+				7CB24D861EF77A6D0026CA67 /* HyperLinker */,
 				7CB24D851EF77A6D0026CA67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +44,12 @@
 		7CB24D851EF77A6D0026CA67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CB24D841EF77A6D0026CA67 /* Link Hyper.app */,
+				7CB24D841EF77A6D0026CA67 /* HyperLinker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CB24D861EF77A6D0026CA67 /* Link Hyper */ = {
+		7CB24D861EF77A6D0026CA67 /* HyperLinker */ = {
 			isa = PBXGroup;
 			children = (
 				7CB24D871EF77A6D0026CA67 /* AppDelegate.swift */,
@@ -58,15 +58,15 @@
 				7CB24D8D1EF77A6D0026CA67 /* Main.storyboard */,
 				7CB24D901EF77A6D0026CA67 /* Info.plist */,
 			);
-			path = "Link Hyper";
+			path = HyperLinker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CB24D831EF77A6D0026CA67 /* Link Hyper */ = {
+		7CB24D831EF77A6D0026CA67 /* HyperLinker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CB24D931EF77A6D0026CA67 /* Build configuration list for PBXNativeTarget "Link Hyper" */;
+			buildConfigurationList = 7CB24D931EF77A6D0026CA67 /* Build configuration list for PBXNativeTarget "HyperLinker" */;
 			buildPhases = (
 				7CB24D801EF77A6D0026CA67 /* Sources */,
 				7CB24D811EF77A6D0026CA67 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = "Link Hyper";
+			name = HyperLinker;
 			productName = "Link Hyper";
-			productReference = 7CB24D841EF77A6D0026CA67 /* Link Hyper.app */;
+			productReference = 7CB24D841EF77A6D0026CA67 /* HyperLinker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7CB24D7F1EF77A6D0026CA67 /* Build configuration list for PBXProject "Link Hyper" */;
+			buildConfigurationList = 7CB24D7F1EF77A6D0026CA67 /* Build configuration list for PBXProject "HyperLinker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CB24D831EF77A6D0026CA67 /* Link Hyper */,
+				7CB24D831EF77A6D0026CA67 /* HyperLinker */,
 			);
 		};
 /* End PBXProject section */
@@ -250,9 +250,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = S5DU524B3W;
-				INFOPLIST_FILE = "Link Hyper/Info.plist";
+				INFOPLIST_FILE = HyperLinker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.sitewiz.Link-Hyper";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sitewiz.HyperLinker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -264,9 +264,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = S5DU524B3W;
-				INFOPLIST_FILE = "Link Hyper/Info.plist";
+				INFOPLIST_FILE = HyperLinker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.sitewiz.Link-Hyper";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.sitewiz.HyperLinker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +275,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CB24D7F1EF77A6D0026CA67 /* Build configuration list for PBXProject "Link Hyper" */ = {
+		7CB24D7F1EF77A6D0026CA67 /* Build configuration list for PBXProject "HyperLinker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CB24D911EF77A6D0026CA67 /* Debug */,
@@ -284,13 +284,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CB24D931EF77A6D0026CA67 /* Build configuration list for PBXNativeTarget "Link Hyper" */ = {
+		7CB24D931EF77A6D0026CA67 /* Build configuration list for PBXNativeTarget "HyperLinker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CB24D941EF77A6D0026CA67 /* Debug */,
 				7CB24D951EF77A6D0026CA67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
